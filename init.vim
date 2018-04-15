@@ -10,13 +10,6 @@ set noshowmode            " lightline.vim takes care of this
 
 set hidden
 
-" Pathogen
-
-execute pathogen#infect()
-
-syntax on
-filetype plugin indent on
-
 " Remove swap files
 
 set noswapfile
@@ -37,6 +30,13 @@ set expandtab
 
 nnoremap p p=`]<C-o>
 nnoremap P P=`]<C-o>
+
+" Pathogen
+
+execute pathogen#infect()
+
+syntax on
+filetype plugin indent on
 
 """
 
